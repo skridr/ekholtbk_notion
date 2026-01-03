@@ -1,0 +1,7 @@
+{
+  "name": "notion-mcp",
+  "private": true,
+  "scripts": {
+    "start": "npx @modelcontextprotocol/server-notion"
+  }
+}
