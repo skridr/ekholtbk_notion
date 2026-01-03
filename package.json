@@ -2,6 +2,11 @@
   "name": "notion-mcp",
   "private": true,
   "scripts": {
-    "start": "npx @modelcontextprotocol/server-notion"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
   }
 }
